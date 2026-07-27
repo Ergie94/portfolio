@@ -331,7 +331,7 @@ li::marker {
 }
 
 .featured-work-grid {
-  grid-template-columns: repeat(2, minmax(260px, 430px));
+  grid-template-columns: repeat(2, minmax(220px, 340px));
   align-items: start;
 }
 
@@ -398,14 +398,14 @@ figcaption span {
 
 .work-video video {
   aspect-ratio: 9 / 16;
-  max-height: 680px;
+  max-height: 560px;
   object-fit: contain;
 }
 
 .work-result img {
   aspect-ratio: auto;
   height: auto;
-  max-height: none;
+  max-height: 560px;
   object-fit: contain;
   object-position: center;
 }
