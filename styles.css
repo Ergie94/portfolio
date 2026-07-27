@@ -331,7 +331,8 @@ li::marker {
 }
 
 .featured-work-grid {
-  grid-template-columns: minmax(260px, 430px);
+  grid-template-columns: repeat(2, minmax(260px, 430px));
+  align-items: start;
 }
 
 figure {
@@ -347,6 +348,12 @@ figure img {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+figure video {
+  display: block;
+  width: 100%;
+  background: var(--ink);
 }
 
 .work-grid figure img {
@@ -383,6 +390,16 @@ figcaption span {
 
 .work-result {
   background: var(--ink);
+}
+
+.work-video {
+  background: var(--ink);
+}
+
+.work-video video {
+  aspect-ratio: 9 / 16;
+  max-height: 680px;
+  object-fit: contain;
 }
 
 .work-result img {
