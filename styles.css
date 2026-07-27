@@ -330,6 +330,10 @@ li::marker {
   margin-top: 28px;
 }
 
+.featured-work-grid {
+  grid-template-columns: minmax(260px, 430px);
+}
+
 figure {
   margin: 0;
   border: 1px solid var(--line);
