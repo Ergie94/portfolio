@@ -386,9 +386,15 @@ figcaption span {
 }
 
 .work-result img {
-  aspect-ratio: 9 / 16;
-  max-height: 620px;
-  object-position: center top;
+  aspect-ratio: auto;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  object-position: center;
+}
+
+.work-grid .work-result:hover img {
+  transform: none;
 }
 
 .work-result figcaption {
