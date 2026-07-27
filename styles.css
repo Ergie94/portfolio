@@ -362,6 +362,35 @@ figcaption {
   font-weight: 700;
 }
 
+figcaption strong,
+figcaption span {
+  display: block;
+}
+
+figcaption strong {
+  color: var(--ink);
+}
+
+figcaption span {
+  margin-top: 6px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.work-result {
+  background: var(--ink);
+}
+
+.work-result img {
+  aspect-ratio: 9 / 16;
+  max-height: 620px;
+  object-position: center top;
+}
+
+.work-result figcaption {
+  background: var(--white);
+}
+
 .split-section {
   display: grid;
   grid-template-columns: minmax(240px, 0.85fr) minmax(0, 1.15fr);
