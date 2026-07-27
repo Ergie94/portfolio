@@ -487,6 +487,17 @@ figcaption span {
   font-weight: 700;
 }
 
+.tools-section {
+  padding-top: clamp(46px, 7vw, 82px);
+  padding-bottom: clamp(48px, 7vw, 86px);
+  background: var(--soft);
+}
+
+.tools-section .skills {
+  margin-top: 18px;
+  max-width: 760px;
+}
+
 .contact-section {
   display: grid;
   grid-template-columns: minmax(260px, 1fr) minmax(280px, 0.8fr);
