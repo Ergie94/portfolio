@@ -340,7 +340,7 @@ figure {
   margin: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: var(--paper);
+  background: var(--white);
   overflow: hidden;
 }
 
@@ -394,14 +394,26 @@ figcaption span {
 }
 
 .work-video {
-  background: #eef5ff;
+  padding: clamp(12px, 1.5vw, 18px);
+  background: var(--white);
 }
 
 .work-video video {
   aspect-ratio: 9 / 16;
   max-height: 560px;
   background: #eef5ff;
+  border-radius: 6px;
   object-fit: contain;
+}
+
+.work-video figcaption {
+  padding: 14px 2px 0;
+  font-size: 15px;
+}
+
+.work-video figcaption strong {
+  color: var(--blue);
+  font-size: 17px;
 }
 
 .work-result img {
