@@ -134,6 +134,14 @@ h1 {
   letter-spacing: 0;
 }
 
+h1 .name-line {
+  display: block;
+}
+
+h1 .surname-line {
+  white-space: nowrap;
+}
+
 h2 {
   margin-bottom: 18px;
   color: var(--blue);
