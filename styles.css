@@ -331,7 +331,8 @@ li::marker {
 }
 
 .featured-work-grid {
-  grid-template-columns: repeat(4, minmax(190px, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(10px, 1.4vw, 16px);
   align-items: start;
 }
 
