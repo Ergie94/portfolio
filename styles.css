@@ -525,18 +525,6 @@ figcaption span {
   color: var(--white);
 }
 
-.signature {
-  margin: 24px 0 0;
-  color: var(--blue);
-  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
-  font-size: clamp(24px, 3vw, 34px);
-  font-style: italic;
-  font-weight: 700;
-  line-height: 1.1;
-  opacity: 0.92;
-  transform: rotate(-1deg);
-}
-
 .contact-links {
   align-content: start;
   margin-top: 0;
